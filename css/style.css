@@ -1,0 +1,213 @@
+body {
+	background: #ccc;
+	font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #363636; */
+}
+.main-menu-wrapper {
+	padding: 0 55px;
+	background: #363636;
+}
+.main-menu .fa {
+	font-size: 13px;
+	color: #ff4c4c;
+	margin-right: 2px;
+}
+.main-menu hr {
+	display: none;
+	overflow: hidden;
+}
+.main-menu a {
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.main-menu .active {
+	color: #ff4c4c;
+	font-size: 14px;
+	line-height: 1.4;
+}
+::-webkit-scrollbar { width: 10px;}
+::-webkit-scrollbar-track-piece { background-color: #363636;}
+::-webkit-scrollbar-thumb { height: 30px; background-color: #666; border-radius: 5px;}
+.main-menu .top-string,
+.collumn-left-contacts,
+.block-right-social,
+.block-language-switch,
+.bottom-string,
+.top-menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.main-menu .top-string {
+	justify-content: space-between;
+	height: 60px;
+	align-items: center;
+}
+.collumn-left-contacts {
+	justify-content: flex-start;
+}
+.collumn-left-contacts .top-manager {
+	padding-right: 10px;
+}
+.collumn-left-contacts a:hover {
+	color: #228ed2;
+	cursor: pointer;
+	text-decoration: none;
+	-webkit-transition: all 160ms ease-out;
+	transition: all 160ms ease-out;
+}
+.bottom-string {
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+.block-right-social {
+	justify-content: space-between;
+	width: 420px;
+}
+.block-right-social .block-social .fa {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 12px;
+}
+.block-right-social .block-language-switch {
+	justify-content: space-around;
+	list-style: none;
+	width: 107px;
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+}
+.block-right-social .block-language-switch a {
+	padding: 5px;
+}
+.block-right-social .block-language-switch a:hover {
+	background: #ff4c4c;
+}
+.block-right-social .block-callback a {
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid #ff4c4c;
+	padding: 4px 8px;
+	color: #fff;
+	-webkit-transition: all 160ms ease-out;
+	transition: all 160ms ease-out;
+}
+.block-right-social .block-callback a:hover {
+	background-color: #ff4c4c;
+	border-color: #ff4c4c;
+}
+.collumn-left-logo {
+	max-width: 250px;
+}
+.collumn-left-logo-item .logo {
+	display: none;
+}
+.top-menu .arrow-icon {
+	margin-left: 5px;
+	color: #fff;
+}
+.top-menu li {
+	list-style: none;
+}
+.top-menu li a {
+	color: #dcdcdc;
+	font-weight: 600;
+	padding: 21px 8px;
+	text-transform: uppercase;
+}
+.top-menu .top-submenu {
+	display: none;
+	position: absolute;
+	top: 122px;
+	width: 300px;
+	background: #363636;
+	padding: 0;
+}
+.top-menu li:nth-child(2) .top-submenu {
+	height: 290px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.top-submenu li a {
+	display: block;
+	padding: 12px 8px;
+	text-transform: none;
+}
+.come-back,
+.block-social,
+.block-callback-sm,
+.block-callback-small,
+.block-language-switch-small {
+	display: none;
+}
+#burg {
+	display: none;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+#burg a {
+	display: block;
+}
+#burg {
+	width: 50px;
+	padding: 7.5px;
+}
+#burg span {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-o-display: flex;
+	display: flex;
+	margin: 8px;
+	width: 35px;
+	height: 4px;
+	background: #fff;
+	z-index: 999;
+	border-radius: 4px;
+}
+#burg .bar.line-1 {
+	top: 0;
+}
+#burg .bar.line-2 {
+	top: 50%;
+}
+#burg .bar.line-3 {
+	top: 100%;
+}
+#burg.active {
+	width: 320px;
+	background: #363636;
+	padding-left: 94px;
+	position: absolute;
+	top: 0;
+	right: -93px;
+	z-index: 1;
+	padding: 18px 60px;
+}
+#burg.active .line-1 {
+	transform: translateY(12px) translateX(0) rotate(45deg);
+	-webkit-transform: translateY(12px) translateX(0) rotate(45deg);
+	-moz-transform: translateY(12px) translateX(0) rotate(45deg);
+}
+#burg.active .line-2 {
+	opacity: 0;
+}
+#burg.active .line-3 {
+	transform: translateY(-12px) translateX(0) rotate(-45deg);
+	-webkit-transform: translateY(-12px) translateX(0) rotate(-45deg);
+	-moz-transform: translateY(-12px) translateX(0) rotate(-45deg);
+}
+
+.gjjh {
+
+}
